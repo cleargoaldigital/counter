@@ -15,7 +15,7 @@ startCount.addEventListener('click', () => {
   counter.textContent = count;
   if (count % 3 === 0) {
     counter.style.color = "blue";
-  } else if (count % 4 == 0) {
+  } else if (count % 4 === 0) {
     counter.style.color = "skyblue";
   }
 else {
@@ -30,7 +30,7 @@ reduceCount.addEventListener('click', () => {
 
 resetCount.addEventListener("click", () => {
     counter.textContent = count;
-    count === 0;
+    count = 0;
   
 });
 
