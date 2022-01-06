@@ -13,13 +13,13 @@ counter.textContent = count;
 startCount.addEventListener('click', () => {
   count++;
   counter.textContent = count;
-  if (count % 3 == 0) {
-    count.style.color = "blue";
+  if (count % 3 === 0) {
+    counter.style.color = "blue";
   } else if (count % 4 == 0) {
-    count.style.color = "orange";
+    counter.style.color = "skyblue";
   }
 else {
-    count.style.color = "#fff";
+    counter.style.color = "#fff";
   }
 });
 
@@ -29,8 +29,9 @@ reduceCount.addEventListener('click', () => {
 });
 
 resetCount.addEventListener("click", () => {
-  counter.textContent = "";
-  count = 0;
+    counter.textContent = count;
+    count === 0;
+  
 });
 
 
