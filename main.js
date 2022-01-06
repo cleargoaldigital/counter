@@ -8,17 +8,19 @@ const reduceCount = document.querySelector('#btn2');
 const resetCount = document.querySelector('#btn3');
 
 
-counter.textContent = count;
+// Add event listener to access the buttons
+// and activate actions as intended.
+// set counter display text to the current value of count.
 
 startCount.addEventListener('click', () => {
   count++;
   counter.textContent = count;
   if (count % 3 === 0) {
-    counter.style.color = "blue";
+    counter.style.color = "#fe2";
   } else if (count % 4 === 0) {
-    counter.style.color = "skyblue";
+    counter.style.color = "#4d11d9";
   }
-else {
+  else {
     counter.style.color = "#fff";
   }
 });
@@ -26,7 +28,16 @@ else {
 reduceCount.addEventListener('click', () => {
   count--;
   counter.textContent = count;
+  if (count % 3 === 0) {
+    counter.style.color = "#fe2";
+  } else if (count % 4 === 0) {
+    counter.style.color = "#4d11d9";
+  }
+  else {
+    counter.style.color = "#fff";
+  }
 });
+// set counter equal to zero to reset the counter
 
 resetCount.addEventListener("click", () => {
     count = 0;
@@ -35,9 +46,11 @@ resetCount.addEventListener("click", () => {
 });
 
 
+// Setting date and background color.
+
 const date = document.createElement('p');
 date.textContent = new Date();
-date.style.cssText = "font-size: 12px; color: #fd00e9; font-family: cursive;"
+date.style.cssText = "font-size: 12px; color: #fff; font-family: helvetica;"
 const h1 = document.querySelector('h1');
 h1.appendChild(date)
 

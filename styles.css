@@ -1,7 +1,6 @@
 body {
 margin: 0;
 padding: 0;
-position: relative;
 }
 
 h1{
@@ -12,13 +11,15 @@ h1{
 .count{
     display: block;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-color: #daab14;
+    width: 30px;
+    height: 30px;
+    background-color: #f54293;
     text-align: center;
     margin: auto;
     color: #fff;
-    padding: 15px;
+    padding: 25px;
+    font-weight: 700;
+    font-size: 1.4em;
 }
 
 p {
@@ -53,12 +54,10 @@ p {
 }
 
 footer{
-    position: absolute;
     border: 2px solid #fff;
     padding: 20px;
     background: #0e0e0d;
     margin: 40px auto;
     border-radius: 10px;
     color: #fff;
-    bottom: 0;
 }
