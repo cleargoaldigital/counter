@@ -13,9 +13,10 @@ counter.textContent = count;
 startCount.addEventListener('click', () => {
   count++;
   counter.textContent = count;
-  if (count%3==0){count.style.color = "blue";
-  }
-if (count%4==0){count.style.color = "orange";
+  if (count%3 == 0) {
+    count.style.color = "blue";
+  } else if (count%4 == 0) {
+    count.style.color = "orange";
   }
 });
 
