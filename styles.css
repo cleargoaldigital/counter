@@ -1,3 +1,9 @@
+body {
+margin: 0;
+padding: 0;
+position: absolute;
+}
+
 h1{
     text-align: center;
     color: #0606b1;
@@ -25,6 +31,7 @@ p {
   justify-content: center;
   padding: 20px;
 }
+
 #btn1, #btn2, #btn3 {
   color: #fff;
   padding: 10px;
@@ -46,10 +53,12 @@ p {
 }
 
 footer{
+    position: relative;
     border: 2px solid #fff;
     padding: 20px;
     background: #0e0e0d;
     margin: 40px auto;
     border-radius: 10px;
     color: #fff;
+    bottom: 0;
 }
