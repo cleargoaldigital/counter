@@ -3,7 +3,6 @@ h1{
     color: #0606b1;
 }
 
-
 .count{
     display: block;
     border-radius: 50%;
@@ -12,7 +11,7 @@ h1{
     background-color: #daab14;
     text-align: center;
     margin: auto;
-    color: #fff;
+    /*color: #fff;*/
     padding: 15px;
 }
 
