@@ -29,8 +29,8 @@ reduceCount.addEventListener('click', () => {
 });
 
 resetCount.addEventListener("click", () => {
-    counter.textContent = count;
     count = 0;
+    counter.textContent = count;
   
 });
 
