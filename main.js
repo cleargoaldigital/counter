@@ -19,8 +19,7 @@ startCount.addEventListener('click', () => {
     counter.style.color = "#fe2";
   } else if (count % 4 === 0) {
     counter.style.color = "#4d11d9";
-  }
-  else {
+  } else {
     counter.style.color = "#fff";
   }
 });
@@ -32,24 +31,23 @@ reduceCount.addEventListener('click', () => {
     counter.style.color = "#fe2";
   } else if (count % 4 === 0) {
     counter.style.color = "#4d11d9";
-  }
-  else {
+  } else {
     counter.style.color = "#fff";
   }
 });
 // set counter equal to zero to reset the counter
 
 resetCount.addEventListener("click", () => {
-    count = 0;
-    counter.textContent = count;
-  
+  count = 0;
+  counter.textContent = count;
+
 });
 
 
 // Setting date and background color.
 
 const date = document.querySelector('span');
-date.textContent = new Date();
+date.textContent = Date();
 date.style.cssText = "font-size: 12px; color: #fff; font-family: helvetica;"
 
 const body = document.querySelector('body');
