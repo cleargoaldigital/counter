@@ -47,7 +47,7 @@ resetCount.addEventListener("click", () => {
 // Setting date and background color.
 
 const date = document.querySelector('span');
-date.textContent = Date();
+date.textContent = new Date();
 date.style.cssText = "font-size: 12px; color: #fff; font-family: helvetica;"
 
 const body = document.querySelector('body');
